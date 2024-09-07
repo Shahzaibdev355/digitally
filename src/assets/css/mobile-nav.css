@@ -1,0 +1,144 @@
+
+.mobile-nav-container {
+  /* height: 100vh;
+  overflow-y: hidden; */
+  /* background-color: palevioletred; */
+  /* color: beige; */
+  /* display: none; */
+}
+.mobile-nav {
+  display: none;
+  justify-content: space-between;
+  padding: 15px 15px;
+  align-items: center;
+}
+.mobile-nav .logo-container {
+  overflow-y: hidden;
+}
+.mobile-nav .logo-container h1 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.mobile-nav .menu-container {
+  overflow-y: hidden;
+}
+.mobile-nav .menu-container div {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.mobile-nav .menu-container div:hover {
+  cursor: pointer;
+}
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* background-color: black; */
+}
+.mobile-menu button {
+  align-self: flex-end;
+  margin: 20px 30px 0 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 13px;
+  color: white;
+}
+.mobile-menu button:hover {
+  cursor: pointer;
+}
+.mobile-menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.mobile-menu ul li {
+  margin: 20px 0;
+  overflow-y: hidden;
+  user-select: none;
+}
+.mobile-menu ul li div {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 34px;
+}
+.mobile-menu ul li:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+.mobile-menu .contact {
+  margin-top: 80px;
+  display: flex;
+}
+.mobile-menu .contact h5 {
+  font-weight: normal;
+}
+.mobile-menu .contact h5:first-of-type {
+  margin-right: 40px;
+}
+
+
+
+
+.open-menu-icon{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 32px;
+}
+
+.mobile-logo{
+  width: 90%!important;
+}
+
+
+
+.close-menu-icon{
+
+  color: white;
+  font-size: 32px!important;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .mobile-nav-container {
+    /* height: 100vh;
+    overflow-y: hidden; */
+    /* background-color: palevioletred; */
+    /* color: beige; */
+  
+    /* display: block; */
+  }
+
+
+  .mobile-nav {
+    display: flex;
+  }
+
+  .mobile-menu {
+   overflow-y: hidden;
+   z-index: 100;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background: linear-gradient(90deg, #1E4379 0%, #2E5DA2 51.5%, #1E4379 100%); */
+    background: #1E4379;
+  }
+
+}

@@ -1,0 +1,61 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-three/drei": "^9.109.5",
+    "@react-three/fiber": "^8.17.5",
+    "@swiper/core": "^0.0.21",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/webgi": "https://dist.pixotronics.com/webgi/runtime/bundle-types-0.9.15.tgz",
+    "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.3.24",
+    "gsap": "^3.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-parallax": "^3.5.1",
+    "react-parallax-tilt": "^1.7.237",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-scroll-parallax": "^3.4.5",
+    "sass": "^1.77.8",
+    "simple-parallax-js": "^6.0.1",
+    "split-type": "^0.3.4",
+    "swiper": "^11.1.1",
+    "three": "^0.167.1",
+    "web-vitals": "^2.1.4",
+    "webgi": "https://dist.pixotronics.com/webgi/runtime/bundle-0.9.15.tgz"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
